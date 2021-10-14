@@ -316,9 +316,17 @@ section .topic{
     margin: 20px 0;
     border-radius: 12px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
-    padding: 20px 20px;
+    padding: 20px 30px;
     text-align: center;
     transition: all 0.4 ease;
+}
+
+.portfolio .boxes .box a{
+    color: black;
+}
+
+.portfolio .boxes .box p{
+    text-align: justify;
 }
 
 .portfolio .boxes .box:hover{
@@ -337,9 +345,14 @@ section .topic{
     transition: all 0.4 ease;
 }
 
+.portfolio .boxes .box .icon i{
+    font-size: 20px;
+}
+
 .portfolio .boxes .box:hover .icon{
     background: #CFCEC7;
     color: #fff;
+    border: 2px solid #fff;
 }
 
 /* Contact Content */
