@@ -595,4 +595,70 @@ footer .text{
         font-size: 13px;
     }
 
+@media (max-width: 365px){
+    .about .about-details .right{
+        width: 90%;
+        margin: auto
+    }
+
+    .skills .skills-details{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* text-align: center; */
+    }
+
+    .skills .skills-details .topic{
+        font-size: 18px;
+    }
+
+    .skills .skills-details p{
+        font-size: 15px;
+    }
+
+    .portfolio .boxes{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .portfolio .boxes .box{
+        width: 80%;
+    }
+    
+    .contact .text{
+        width: 100%;
+        display: flex;
+        margin-left: 20px;
+    }
+
+    .contact .text .box{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .contact .text .box .icon{
+        /* display: flex; */
+        font-size: 20px;
+        text-align:  center;
+        /* background: red; */
+    }
+    
+    .contact .text .box .icon a{
+        color: black;
+    }
+    
+    .contact .text .box .topic{
+        /* display: flex; */
+        font-size: 15px;
+        margin-left: 20px;
+    }
+    
+    .contact .text .box .topic a{
+        color: black;
+    }
+
+    footer .text{
+        font-size: 10px;
+    }
+
 }
