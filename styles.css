@@ -16,7 +16,7 @@ nav{
 }
 
 nav.sticky{
-    padding: 15px 0;
+    padding: 16px 0;
     /* background: darkgrey; */
     background: #CFCEC7;
 }
@@ -138,7 +138,7 @@ nav .menu-btn, .navbar .cancel-btn{
 
 /* About content */
 .about{
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .about .content{
@@ -237,11 +237,10 @@ section .topic{
 
 /* Skill Content */
 .skills{
-    /* height: 50vh; */
-    margin-top: 20px;
-    padding-top: 20px;
-    padding-bottom: 40px;
-    /* padding: 40px 0; */
+    /* height: 90vh; */
+    margin-top: 80px;
+    /* padding: 50px 0; */
+    padding: 50px 0;
     background: #F7F7F7;
 }
 
@@ -294,8 +293,8 @@ section .topic{
 
 /* Portfolio Content */
 .portfolio{
-    margin-top: 20px;
-    padding-bottom: 40px;
+    margin-top: 10px;
+    padding: 50px;
 }
 
 .portfolio .content{
@@ -327,6 +326,7 @@ section .topic{
 
 .portfolio .boxes .box p{
     text-align: justify;
+    margin-top: 10px;
 }
 
 .portfolio .boxes .box:hover{
@@ -362,7 +362,8 @@ section .topic{
 }
 
 .contact .content{
-    width: 80%;
+    width: 50%;
+    height: 220px;
     margin: auto;
     font-family: 'Poppins', sans-serif;
     /* background: red; */
@@ -376,23 +377,34 @@ section .topic{
 
 .contact .text .box{
     width: 200px;
-    height: 200px;
-    padding: 10px;
+    /* height: 200px; */
+    /* padding: 10px; */
+    /* background: red; */
 }
 
 .contact .text .box .icon{
-    font-size: 50px;
+    font-size: 30px;
     text-align:  center;
 }
 
+.contact .text .box .icon a{
+    color: black;
+}
+
 .contact .text .box .topic{
+    font-size: 20px;
     text-align:  center;
+}
+
+.contact .text .box .topic a{
+    color: black;
 }
 
 /* Footer Content */
 footer{
-    background: #C0C2CE;
+    background: #F7F7F7;
     text-align: center;
+    font-family: 'Poppins';
 }
 
 footer .text{
@@ -469,6 +481,55 @@ footer .text{
     .home .text .text-three{
         font-size: 35px;
     }
+
+    .about .about-details .right{
+        width: 90%;
+        margin: auto
+    }
+
+    .portfolio .boxes{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .portfolio .boxes .box{
+        width: 90%;
+    }
+
+    .contact .text{
+        width: 500px;
+        display: flex;
+        margin-left: -17%;
+        /* align-items: center; */
+        /* flex-direction: column; */
+        /* justify-content: space-between; */
+        /* background: red; */
+    }
+
+    .contact .text .box{
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-between; */
+        /* align-content: center; */
+    }
+    
+    .contact .text .box .icon{
+        font-size: 25px;
+        /* text-align:  center; */
+    }
+    
+    .contact .text .box .icon a{
+        color: black;
+    }
+    
+    .contact .text .box .topic{
+        font-size: 15px;
+        /* margin-left: 20px; */
+    }
+    
+    .contact .text .box .topic a{
+        color: black;
+    }
 }
 
 @media (max-width: 510px){
@@ -479,4 +540,59 @@ footer .text{
     .home .text .text-three{
         font-size: 33px;
     }
+
+    .about .about-details .right{
+        width: 90%;
+        margin: auto
+    }
+
+    .skills .skills-details{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* text-align: center; */
+    }
+
+    .portfolio .boxes{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .portfolio .boxes .box{
+        width: 85%;
+    }
+    
+    .contact .text{
+        display: flex;
+        /* align-items: center; */
+        flex-direction: column;
+    }
+
+    .contact .text .box{
+        display: flex;
+        align-items: center;
+    }
+    
+    .contact .text .box .icon{
+        font-size: 25px;
+        /* text-align:  center; */
+    }
+    
+    .contact .text .box .icon a{
+        color: black;
+    }
+    
+    .contact .text .box .topic{
+        font-size: 15px;
+        margin-left: 20px;
+    }
+    
+    .contact .text .box .topic a{
+        color: black;
+    }
+
+    footer .text{
+        font-size: 13px;
+    }
+
 }
